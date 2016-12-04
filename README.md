@@ -12,7 +12,7 @@ Then run the below command on hadoop cluster by making small modifications in  o
 
  hadoop jar  /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.7.1.jar -input  /data/nyc/nyc-traffic.csv   -output /users-cloud-16fs/lingalvy/job-out  -mapper ~/mr_ex/mapper.py   -reducer ~/mr_ex/reducer.py  -file ~/mr_ex/{mapper,reducer}.py
  
-After successful execution of hadoop jobs, the output statistics for the can be viewed in hdfs using below command
+After successful execution of hadoop jobs, the output statistics can be viewed in hdfs using below command
  
 hadoop fs -cat /users-cloud-16fs/lingalvy/job-out/part-00000
   
