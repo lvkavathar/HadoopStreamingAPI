@@ -1,5 +1,7 @@
 # HadoopStreamingAPI
 
+## Below are the instructions for using this code on hadoop server which supports HadoopStreamingAPI
+
 Go to home directory
 
 First, clone these repository either using https or ssh on to the hadoop server
