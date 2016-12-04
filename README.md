@@ -16,7 +16,7 @@ After successful execution of hadoop jobs, the output statistics can be viewed i
  
 hadoop fs -cat /users-cloud-16fs/lingalvy/job-out/part-00000
   
-here we used nyc-traffic.csv file as input and below are the text summary statistics od that data
+here we used nyc-traffic.csv file as input and below are the text summary statistics for that data
   
 AMBULANCE       3713
 
